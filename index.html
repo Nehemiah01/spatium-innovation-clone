@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     
     <title>Spatium Innovation Clone</title>
 </head>
@@ -14,7 +16,7 @@
     <nav class="py-5 xl:px-20 lg:px-12 px-6 flex justify-between items-center">
         <img class="logo" src="assets/Spatium Logo 1@3x 1.png" alt="company logo">
 
-        <span class="links flex md:gap-5 md:font-base font-semibold">
+        <span class="links flex md:gap-10 md:font-base font-semibold">
             <a href="" class="light-green-text">Home</a>
             <a href="">About Us</a>
             <a href="">Portfolio</a>
@@ -34,7 +36,7 @@
     <main class="xl:px-20 lg:px-12 px-6">
         <div class="grid grid-cols-2 items-center hero-div py-10" >
             <div >
-                <p class="hero-text dark-b-text font-semibold text-4xl light-green-text">Next Generation Global Investors</p>
+                <p class="hero-text font-semibold text-4xl light-green-text">Next Generation Global Investors</p>
 
                 <p class="text-lg py-6">Creating quality urban lifestyles, building stronger communities</p>
     
@@ -44,10 +46,12 @@
             <img class="big-house ml-auto w-72 mx-auto" src="assets/young people in casual clothes standing.svg" alt="young people in casual clothes standing">
         </div>
 
-        <div class="grid grid-cols-2 justify-start self-start gap-10 my-16">
-            <img class="w-80 mx-auto" src="assets/Picture.png" alt="">
+        
 
-            <div>
+        <div class="grid grid-cols-2 justify-start self-start gap-10 my-16">
+            <img class="who-we-are mr-auto" src="assets/Picture.png" alt="">
+
+            <div class="my-auto">
                 <li class="uppercase font-bold text-xs my-4 text-gray-400">Who we are</li>
 
                 <p class="font-bold titles my-4">We are a Team with Focus on Innovation and Improving Business processes, people, and systems</p>
@@ -105,70 +109,177 @@
 
     <hr class="xl:px-20 lg:px-12 px-6 mt-16">
 
-    <section class="xl:px-20 lg:px-12 px-6">
+    <section class="xl:px-20 lg:px-12 px-6 faq">
         <p  class="font-bold text-2xl text-center mt-5 mb-16">Frequently asked questions <img class="inline w-4 ml-10" src="assets/line-angle-down 1.svg" alt=""></p>
 
-        <div class="dark-green flex gap-14 items-center rounded-2xl p-10 my-16">
+        <div class="flex gap-14 items-center rounded-2xl p-10 my-16">
             <img class="w-15" src="assets/news 1.png" alt="image of newsletter">
 
             <p class="text-white text-lg font-semibold">Subscribe to our Newsletter</p>
 
-            <!-- <div class="relative py-5 px-10 w-1/2 bg-green-200 cont"> -->
-            <input class="b-radius py-5 px-10 w-1/2" type="email" name="" id="" placeholder="Please enter your email address">
-            <button class="last b-radius py-2">Subscribe <span class="inline-block align-middle bg-white w-7 h-7 rounded-2xl"><img class="w-5 h-5 0" src="assets/down-arrow (2) 1.png" alt=""></span></button>
-            <!-- </div> -->
+            <div class="relative flex items-center py-2 w-1/2 cont">
+                <input class="absolute b-radius py-5 px-10 w-full" type="email" name="" id="" placeholder="Please enter your email address">
+                <button class="last absolute b-radius py-2 justify-end right-0 font-semibold">Subscribe 
+                    <span class="inline-block align-middle bg-white ml-2 mr-1 w-9 h-9 ">
+                        <!-- <img class="w-5 h-5 " src="assets/down-arrow (2) 1.png" alt=""> -->
+                        <i class="fa-solid fa-arrow-right col arrow my-2.5 ml-0.5"></i>
+                    </span>
+                </button>
+            </div>
         </div>
     </section>
 
-    <footer class= "py-16 xl:px-20 lg:px-12 px-6 flex flex-wrap gap-10 dark-green text-white">
-        <div class="company">
-            <p class="text-lg font-semibold my-2">About Us</p>
-            
-            <img class="logo-white" src="assets/Group 2.svg" alt="Spatium innovations logo">
+    <p class="font-bold text-center text-4xl light-green-text my-16">Blog</p>
 
-            <p class="nunito w-4/5">Spatium Innovation Hub is a thinking company on a mission to connect people and businesses with meaningful innovation.</p>
+    <section class="my-10 mx-auto w-5/6 flex gap-7 justify-between">
+
+        <div class="pb-10 articles">
+            <article class="relative rounded-2xl mb-10">
+                <img class="w-full" src="assets/Rectangle 18.png" alt="image of a man riding a tricycle">
+                <p class="light-green inline-block rounded text-sm text-white px-1.5 py-0.5 absolute top-5 left-10">Uncategorized</p>
+                <p class="light-green inline-block rounded text-sm text-white px-1.5 py-0.5 absolute top-5 left-36 ml-2">Uncategorized</p>
+
+                <div class="p-10">
+                    <p class="text-sm"> <img class="inline" src="assets/publisher icon.png" alt=""> Masiyer Dakol <img class="inline ml-2" src="assets/Vector.png" alt=""> April 6, 2020 <img class="inline ml-2 mr-1" src="assets/Vector-1.png" alt="">2 Comments</p>
+
+                    <p class="text-2xl font-bold my-4">Impact of Accessibility of Handy Services</p>
+
+                    <p>
+                        Take a deep breath and Imagine yourself in a world where you wake up at 7:30am and have to be at work by 8:00am but the sad part is that you live in Nigeria's commercial hub and traffic is now your extra- curricular activity.
+                    </p>
+                </div>
+            </article>
             
-            <div class="flex gap-5 my-5">
-                <img src="assets/Twitter 3.svg" alt="twitter logo">
-                <img src="assets/Facebook 2.svg" alt="facebook logo">
-                <img src="assets/Instagram 3.svg" alt="instagram logo">
-                <img src="assets/LinkedIN 2.svg" alt="linkedin logo">
+            <article class="relative rounded-2xl mb-10">
+                <img class="w-full" src="assets/Rectangle 18 (1).png" alt="image of a stop clock">
+                <p class="light-green inline-block rounded text-sm text-white px-1.5 py-0.5 absolute top-5 left-10">Uncategorized</p>
+                <p class="light-green inline-block rounded text-sm text-white px-1.5 py-0.5 absolute top-5 left-36 ml-2">Uncategorized</p>
+
+                <div class="p-10">
+                    <p class="text-sm"> <img class="inline" src="assets/publisher icon.png" alt=""> Masiyer Dakol <img class="inline ml-2" src="assets/Vector.png" alt=""> April 6, 2020 <img class="inline ml-2 mr-1" src="assets/Vector-1.png" alt="">2 Comments</p>
+
+                    <p class="text-2xl font-bold my-4">Impact of Accessibility of Handy Services</p>
+
+                    <p>
+                        Take a deep breath and Imagine yourself in a world where you wake up at 7:30am and have to be at work by 8:00am but the sad part is that you live in Nigeria's commercial hub and traffic is now your extra- curricular activity.
+                    </p>
+                </div>
+            </article>
+        </div>
+
+        <aside class="relative font-semibold">
+            <div class="mb-7">
+                <img class="absolute right-0 mr-1.5 w-8" src="assets/search.png" alt="">
+                <input class="p-1 py-2 pl-5 w-full" type="text" placeholder="Search...">
+            </div>
+
+            <div class="mb-14">
+                <li class="text-xl"> Recent Posts </li>
+                <p class="ml-7 my-2 block">Impact of Accessibility of handy Services</p>
+            </div>
+            
+            <div class="mb-14">
+                <li class="text-xl"> Recent Comments </li>
+                <p class="ml-7 my-2 block">Masiyer Dakol on Impact of Accessibility of handy Services </p>
+                <p class="ml-7 my-2 block">Famodimu Segun on Impact of Accessibility of handy Services</p>
+            </div>
+            
+            <div class="mb-12">
+                <li class="text-xl"> Categories </li>
+                <p class="ml-7 my-2 block">Uncategorized (1)</p>
+                <p class="ml-7 my-2 block">Uncategorized (1)</p>
+                <p class="ml-7 my-2 block">Uncategorized (1)</p>
+            </div>
+
+            <div class="mb-12">
+                <li class="text-xl"> Recent Posts </li>
+                <div class="ml-7 my-2 flex items-center">
+                    <div class="w-12 h-12 inline-block bg-gray-300 rounded-lg mr-2 unshrink"></div>
+                    <p class="block ">
+                        Impact of Accessibility of handy Services
+                        <time class="block text-gray-500" datetime="2020-4-6">April 6, 2020</time>
+                    </p>
+                </div>
+            
+                <div class="ml-7 my-2 mt-4 flex items-center">
+                    <div class="w-12 h-12 inline-block bg-gray-300 rounded-lg mr-2 unshrink"></div>
+                    <p class="block ">
+                        Impact of Accessibility of handy Services
+                        <time class="block text-gray-500" datetime="2020-4-6">April 6, 2020</time>
+                    </p>
+                </div>
+            </div>
+            
+
+            <div class="mb-7">
+                <li class="text-xl">Instagram</li>
+                <img class="ml-7" src="assets/Instagram posts.svg" alt="">
+            </div>
+            <!-- <img class="ml-7 mt-10" src="assets/Instagram posts.png" alt=""> -->
+            <div class="mb-7">
+                <li class="text-xl">Tags</li>
+                <div class="ml-7 mt-5 flex gap-3 text-sm text-gray-500">
+                    <p class=" inline-block bg-gray-200 py-1 px-1 rounded-md">Uncategorized</p>
+                    <p class=" inline-block bg-gray-200 py-1 px-1 rounded-md">Uncategorized</p>
+                </div>
+            </div>
+
+        </aside>
+    </section>
+
+    <footer >
+        <div class="footerr py-16 xl:px-20 lg:px-12 px-6 flex flex-wrap gap-10 text-white">
+            <div class="company">
+                <p class="text-lg font-semibold my-2">About Us</p>
+            
+                <img class="logo-white" src="assets/Group 2.svg" alt="Spatium innovations logo">
+                <p class="nunito w-4/5">Spatium Innovation Hub is a thinking company on a mission to connect people and businesses with meaningful innovation.</p>
+            
+                <div class="flex gap-5 my-5">
+                    <a href=""><img src="assets/Twitter 3.svg" alt="twitter logo"></a>
+                    <a href=""><img src="assets/Facebook 2.svg" alt="facebook logo"></a>
+                    <a href=""><img src="assets/Instagram 3.svg" alt="instagram logo"></a>
+                    <a href=""><img src="assets/LinkedIN 2.svg" alt="linkedin logo"></a>
+                </div>
+            </div>
+            
+            <div>
+                <p class="text-lg font-semibold my-2">Resources</p>
+                <ul>
+                    <li>Help center</li>
+                    <li>Partners</li>
+                    <li>Gas-Free Marketplace</li>
+                    <li>Docs</li>
+                    <li>Utility</li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-lg font-semibold my-2">Services</p>
+                <ul>
+                    <li>Software development</li>
+                    <li>Identity Management & Verification</li>
+                    <li>IT Consulting & Advisory Services</li>
+                    <li>UI/UX design</li>
+                </ul>
+            </div>
+            
+            <div >
+                <p class="text-lg font-semibold my-2">Quicklinks</p>
+                <ul>
+                    <li>Careers</li>
+                    <li>Resources</li>
+                    <li>Products</li>
+                    <li>Blog</li>
+                </ul>
             </div>
         </div>
-        
-        <div>
-            <p class="text-lg font-semibold my-2">Resources</p>
-            <ul>
-                <li>Help center</li>
-                <li>Partners</li>
-                <li>Gas-Free Marketplace</li>
-                <li>Docs</li>
-                <li>Utility</li>
-            </ul>
-        </div>
 
-        <div >
-            <p class="text-lg font-semibold my-2">Services</p>
-            <ul>
-                <li>Software development</li>
-                <li>Identity Management & Verification</li>
-                <li>IT Consulting & Advisory Services</li>
-                <li>UI/UX design</li>
-            </ul>
-        </div>
-        
-        <div >
-            <p class="text-lg font-semibold my-2">Quicklinks</p>
-            <ul>
-                <li>Careers</li>
-                <li>Resources</li>
-                <li>Products</li>
-                <li>Blog</li>
-            </ul>
+        <div class="text-center text-white pt-2 pb-3 copyright">
+            <p>Copyright  2020. Spatium Innovation Hub. All Rights Reserved</p>
         </div>
 
     </footer>
 
-    
+
 </body>
 </html>

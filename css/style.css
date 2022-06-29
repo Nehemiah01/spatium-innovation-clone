@@ -11,6 +11,10 @@
   color: #1B8036;
 }
 
+.light-green {
+  background-color: #1B8036;
+}
+
 .dark-green-text {
   color: #137212;
 }
@@ -29,10 +33,19 @@ html:not([data-scroll='0']) nav {
   left: -1%;
 }
 
+.links a:hover {
+  color: #1B8036;
+}
+
 button {
   background-color: #1B8036;
   padding: 0.5rem 1rem;
   color: #fff;
+}
+
+.who-we-are {
+  min-width: 60%;
+  max-width: 75%;
 }
 
 .titles {
@@ -44,24 +57,39 @@ button {
   left: -10%;
 }
 
+.mac::after {
+  content: 'Hello World';
+  color: black;
+  display: block;
+  position: absolute;
+  top: 1rem;
+  font-size: 2rem;
+  width: 10rem;
+  height: 30rem;
+  background: radial-gradient(50% 50% at 50% 50%, #A6A2CF 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.faq > div {
+  background: linear-gradient(100.66deg, #1B8036 23.13%, rgba(8, 63, 26, 0.92) 82.12%, rgba(8, 63, 26, 0.86) 97.79%);
+}
+
 .b-radius {
   border-radius: 35px;
 }
 
 .last {
-  position: absolute;
-  right: 15%;
+  margin-right: 0.4rem;
+  padding-right: 0.4rem;
+  -webkit-transform: translateY(-0.5px);
+          transform: translateY(-0.5px);
 }
 
-footer div {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+.last span {
+  border-radius: 50%;
 }
 
-footer li {
-  margin: 1rem 0;
-  max-width: 75%;
+.last .arrow {
+  color: #137212;
 }
 
 .company {
@@ -76,7 +104,48 @@ footer li {
   margin: 1rem 0;
 }
 
-footer > div {
+article {
+  -webkit-box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.15);
+}
+
+input[type='text'] {
+  border: #696969 solid 0.4px;
+  border-radius: 2rem;
+}
+
+aside img {
+  margin-top: 5px;
+}
+
+aside li::marker {
+  color: #1B8036;
+}
+
+aside .unshrink {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+footer {
+  background: linear-gradient(100.66deg, #1B8036 23.13%, rgba(8, 63, 26, 0.92) 82.12%, rgba(8, 63, 26, 0.86) 97.79%);
+}
+
+footer .copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footerr div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footerr div p:first-of-type, .footerr div li {
+  cursor: pointer;
+}
+
+.footerr > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,6 +160,7 @@ footer > div {
   margin-top: 1rem;
 }
 
-footer > div li {
-  margin: 0.5rem 0;
+.footerr > div li {
+  margin: 1rem 0;
+  max-width: 75%;
 }
